@@ -16,7 +16,8 @@ public class WhistleFactory: UIViewController {
   public lazy var titleLabel: UILabel = {
     let label = UILabel()
     label.textAlignment = .Left
-    
+    label.numberOfLines = 1
+    label.lineBreakMode = .ByTruncatingTail
     return label
   }()
 
