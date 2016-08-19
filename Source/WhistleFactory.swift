@@ -15,8 +15,8 @@ public class WhistleFactory: UIViewController {
 
   public lazy var titleLabel: UILabel = {
     let label = UILabel()
-    label.textAlignment = .Center
-
+    label.textAlignment = .Left
+    
     return label
   }()
 
